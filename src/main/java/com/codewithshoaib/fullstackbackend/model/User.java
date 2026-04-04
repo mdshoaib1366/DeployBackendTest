@@ -3,9 +3,11 @@ package com.codewithshoaib.fullstackbackend.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
-/* Created by Arjun Gautam */
+
 @Entity
+@Table(name = "users")
 public class User {
 
     @Id
