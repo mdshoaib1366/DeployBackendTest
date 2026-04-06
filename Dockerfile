@@ -16,7 +16,7 @@ FROM eclipse-temurin:21-jre-alpine AS runner
 
 WORKDIR /app
 
-COPY --from=builder ./app/target/fullstack-backend-1.0.jar ./app.jar
+COPY --from=builder ./app/target/backend-1.0.jar ./app.jar
 
 EXPOSE 8081
 
